@@ -1,0 +1,889 @@
+[0.000000] (-) TimerEvent: {}
+[0.000141] (warehouse_description) JobQueued: {'identifier': 'warehouse_description', 'dependencies': OrderedDict()}
+[0.000169] (warehouse_description) JobStarted: {'identifier': 'warehouse_description'}
+[0.095940] (warehouse_description) JobProgress: {'identifier': 'warehouse_description', 'progress': 'cmake'}
+[0.099807] (-) TimerEvent: {}
+[0.135648] (warehouse_description) Command: {'cmd': ['/usr/bin/cmake', '/home/aidin/warehouse_auto_ws/src/warehouse_description', '-DCMAKE_INSTALL_PREFIX=/home/aidin/warehouse_auto_ws/install/warehouse_description'], 'cwd': '/home/aidin/warehouse_auto_ws/build/warehouse_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aidin', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'STARSHIP_SHELL': 'bash', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{4be4365a-f41d-5903-ba2c-6f1c42edb943}', 'HOME': '/home/aidin', 'OLDPWD': '/home/aidin', 'NVM_BIN': '/home/aidin/.nvm/versions/node/v22.17.1/bin', 'NVM_INC': '/home/aidin/.nvm/versions/node/v22.17.1/include/node', 'ROS_PYTHON_VERSION': '3', 'PS1': '\n\\[\x1b[1;36m\\]warehouse_auto_ws\\[\x1b[0m\\] on \\[\x1b[1;35m\\]\ue0a0 master\\[\x1b[0m\\] \\[\x1b[1;31m\\][?]\\[\x1b[0m\\] took \\[\x1b[1;33m\\]3m31s\\[\x1b[0m\\] \n\\[\x1b[1;32m\\]❯\\[\x1b[0m\\]', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu2-24.04', 'NVM_DIR': '/home/aidin/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/aidin/warehouse_auto_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aidin', 'NAME': 'DESKTOP-GBOV0C7', 'WSL_INTEROP': '/run/WSL/8523_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/aidin/.nvm/versions/node/v22.17.1/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/g/RoboDK/Python37/Scripts/:/mnt/g/RoboDK/Python37/:/mnt/g/SIMULIA/Commands:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/f/Program Files/MATLAB/R2024b/runtime/win64:/mnt/f/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/f/Program Files/Git/cmd:/mnt/g/Users/98912/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/g/Users/98912/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/98912/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/98912/AppData/Local/Microsoft/WindowsApps:/mnt/g/Users/98912/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/f/Users/98912/AMPL:/mnt/f/Users/98912/AMPL/solvers:/snap/bin', 'WT_SESSION': '86296ad6-052a-4e2a-8435-d03053ba8e44', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/aidin/warehouse_auto_ws/install/warehouse_description:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/aidin/warehouse_auto_ws/build/warehouse_description', 'TURTLEBOT3_MODEL': 'burger', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'STARSHIP_SESSION_KEY': '4612853512535497', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/aidin/warehouse_auto_ws/install/warehouse_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.199961] (-) TimerEvent: {}
+[0.300589] (-) TimerEvent: {}
+[0.401286] (-) TimerEvent: {}
+[0.502055] (-) TimerEvent: {}
+[0.602409] (-) TimerEvent: {}
+[0.702763] (-) TimerEvent: {}
+[0.803161] (-) TimerEvent: {}
+[0.903541] (-) TimerEvent: {}
+[1.003938] (-) TimerEvent: {}
+[1.104362] (-) TimerEvent: {}
+[1.204931] (-) TimerEvent: {}
+[1.305730] (-) TimerEvent: {}
+[1.406525] (-) TimerEvent: {}
+[1.507553] (-) TimerEvent: {}
+[1.561634] (warehouse_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.607761] (-) TimerEvent: {}
+[1.708191] (-) TimerEvent: {}
+[1.809242] (-) TimerEvent: {}
+[1.910442] (-) TimerEvent: {}
+[2.010830] (-) TimerEvent: {}
+[2.070556] (warehouse_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.111730] (-) TimerEvent: {}
+[2.212103] (-) TimerEvent: {}
+[2.312979] (-) TimerEvent: {}
+[2.352290] (warehouse_description) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.413370] (-) TimerEvent: {}
+[2.514581] (-) TimerEvent: {}
+[2.615239] (-) TimerEvent: {}
+[2.715878] (-) TimerEvent: {}
+[2.816744] (-) TimerEvent: {}
+[2.917107] (-) TimerEvent: {}
+[3.017702] (-) TimerEvent: {}
+[3.119146] (-) TimerEvent: {}
+[3.220125] (-) TimerEvent: {}
+[3.320862] (-) TimerEvent: {}
+[3.421984] (-) TimerEvent: {}
+[3.439260] (warehouse_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[3.468378] (warehouse_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[3.522518] (-) TimerEvent: {}
+[3.534169] (warehouse_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.591506] (warehouse_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.622741] (-) TimerEvent: {}
+[3.723090] (-) TimerEvent: {}
+[3.823438] (-) TimerEvent: {}
+[3.854151] (warehouse_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[3.874894] (warehouse_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.923660] (-) TimerEvent: {}
+[4.024067] (-) TimerEvent: {}
+[4.124482] (-) TimerEvent: {}
+[4.225322] (-) TimerEvent: {}
+[4.325663] (-) TimerEvent: {}
+[4.425992] (-) TimerEvent: {}
+[4.526374] (-) TimerEvent: {}
+[4.536328] (warehouse_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.627102] (-) TimerEvent: {}
+[4.727401] (-) TimerEvent: {}
+[4.827665] (-) TimerEvent: {}
+[4.927973] (-) TimerEvent: {}
+[5.028654] (-) TimerEvent: {}
+[5.129159] (-) TimerEvent: {}
+[5.229683] (-) TimerEvent: {}
+[5.330274] (-) TimerEvent: {}
+[5.431388] (-) TimerEvent: {}
+[5.532285] (-) TimerEvent: {}
+[5.633142] (-) TimerEvent: {}
+[5.733529] (-) TimerEvent: {}
+[5.834264] (-) TimerEvent: {}
+[5.935589] (-) TimerEvent: {}
+[6.036484] (-) TimerEvent: {}
+[6.117147] (warehouse_description) StdoutLine: {'line': b'-- Found ros_gz_sim: 1.0.15 (/opt/ros/jazzy/share/ros_gz_sim/cmake)\n'}
+[6.136888] (-) TimerEvent: {}
+[6.238234] (-) TimerEvent: {}
+[6.338613] (-) TimerEvent: {}
+[6.439239] (-) TimerEvent: {}
+[6.540463] (-) TimerEvent: {}
+[6.641366] (-) TimerEvent: {}
+[6.742032] (-) TimerEvent: {}
+[6.843168] (-) TimerEvent: {}
+[6.943617] (-) TimerEvent: {}
+[7.044745] (-) TimerEvent: {}
+[7.145879] (-) TimerEvent: {}
+[7.247258] (-) TimerEvent: {}
+[7.348043] (-) TimerEvent: {}
+[7.448653] (-) TimerEvent: {}
+[7.549451] (-) TimerEvent: {}
+[7.649909] (-) TimerEvent: {}
+[7.750881] (-) TimerEvent: {}
+[7.851263] (-) TimerEvent: {}
+[7.951618] (-) TimerEvent: {}
+[8.052062] (-) TimerEvent: {}
+[8.152428] (-) TimerEvent: {}
+[8.252827] (-) TimerEvent: {}
+[8.353225] (-) TimerEvent: {}
+[8.454067] (-) TimerEvent: {}
+[8.458748] (warehouse_description) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[8.549697] (warehouse_description) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[8.554264] (-) TimerEvent: {}
+[8.652834] (warehouse_description) StdoutLine: {'line': b'-- Found gz_math_vendor: 0.0.8 (/opt/ros/jazzy/share/gz_math_vendor/cmake)\n'}
+[8.655017] (-) TimerEvent: {}
+[8.755455] (-) TimerEvent: {}
+[8.828695] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[8.855809] (-) TimerEvent: {}
+[8.948000] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[8.956063] (-) TimerEvent: {}
+[8.968043] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[8.968423] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[9.042427] (warehouse_description) StdoutLine: {'line': b'-- Found gz_sim_vendor: 0.0.8 (/opt/ros/jazzy/share/gz_sim_vendor/cmake)\n'}
+[9.056674] (-) TimerEvent: {}
+[9.157241] (-) TimerEvent: {}
+[9.257806] (-) TimerEvent: {}
+[9.358294] (-) TimerEvent: {}
+[9.459171] (-) TimerEvent: {}
+[9.559586] (-) TimerEvent: {}
+[9.659979] (-) TimerEvent: {}
+[9.760407] (-) TimerEvent: {}
+[9.861010] (-) TimerEvent: {}
+[9.961630] (-) TimerEvent: {}
+[9.995943] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sim8 -- found version 8.9.0\n'}
+[9.996562] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim8\n'}
+[10.023920] (warehouse_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.7.0\n'}
+[10.024215] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of sdformat14\n'}
+[10.044409] (warehouse_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[10.062489] (-) TimerEvent: {}
+[10.163156] (-) TimerEvent: {}
+[10.229839] (warehouse_description) StdoutLine: {'line': b'--   Found tinyxml2, version 10.0.0\n'}
+[10.263268] (-) TimerEvent: {}
+[10.277704] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[10.278164] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[10.278485] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[10.278811] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[10.347353] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.1\n'}
+[10.348028] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[10.363668] (-) TimerEvent: {}
+[10.465166] (-) TimerEvent: {}
+[10.565249] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[10.565877] (-) TimerEvent: {}
+[10.567413] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[10.568477] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[10.666103] (-) TimerEvent: {}
+[10.687368] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[10.748188] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.4\n'}
+[10.749527] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[10.764446] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[10.766343] (-) TimerEvent: {}
+[10.783227] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.4\n'}
+[10.783883] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[10.867150] (-) TimerEvent: {}
+[10.902377] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[10.903425] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[10.967267] (-) TimerEvent: {}
+[11.067635] (-) TimerEvent: {}
+[11.168453] (-) TimerEvent: {}
+[11.269158] (-) TimerEvent: {}
+[11.369512] (-) TimerEvent: {}
+[11.469853] (-) TimerEvent: {}
+[11.570139] (-) TimerEvent: {}
+[11.670427] (-) TimerEvent: {}
+[11.770761] (-) TimerEvent: {}
+[11.871095] (-) TimerEvent: {}
+[11.971487] (-) TimerEvent: {}
+[12.071865] (-) TimerEvent: {}
+[12.172164] (-) TimerEvent: {}
+[12.272511] (-) TimerEvent: {}
+[12.372865] (-) TimerEvent: {}
+[12.473181] (-) TimerEvent: {}
+[12.573511] (-) TimerEvent: {}
+[12.673845] (-) TimerEvent: {}
+[12.774227] (-) TimerEvent: {}
+[12.875233] (-) TimerEvent: {}
+[12.976158] (-) TimerEvent: {}
+[13.077024] (-) TimerEvent: {}
+[13.177596] (-) TimerEvent: {}
+[13.278571] (-) TimerEvent: {}
+[13.379138] (-) TimerEvent: {}
+[13.479856] (-) TimerEvent: {}
+[13.580666] (-) TimerEvent: {}
+[13.681861] (-) TimerEvent: {}
+[13.782588] (-) TimerEvent: {}
+[13.883652] (-) TimerEvent: {}
+[13.984825] (-) TimerEvent: {}
+[14.085462] (-) TimerEvent: {}
+[14.185955] (-) TimerEvent: {}
+[14.286986] (-) TimerEvent: {}
+[14.387609] (-) TimerEvent: {}
+[14.488360] (-) TimerEvent: {}
+[14.588825] (-) TimerEvent: {}
+[14.689154] (-) TimerEvent: {}
+[14.790094] (-) TimerEvent: {}
+[14.890452] (-) TimerEvent: {}
+[14.990799] (-) TimerEvent: {}
+[15.091161] (-) TimerEvent: {}
+[15.191550] (-) TimerEvent: {}
+[15.291845] (-) TimerEvent: {}
+[15.392172] (-) TimerEvent: {}
+[15.492579] (-) TimerEvent: {}
+[15.592861] (-) TimerEvent: {}
+[15.693738] (-) TimerEvent: {}
+[15.794474] (-) TimerEvent: {}
+[15.895517] (-) TimerEvent: {}
+[15.996263] (-) TimerEvent: {}
+[16.097195] (-) TimerEvent: {}
+[16.198221] (-) TimerEvent: {}
+[16.299568] (-) TimerEvent: {}
+[16.399937] (-) TimerEvent: {}
+[16.464388] (warehouse_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") \n'}
+[16.500063] (-) TimerEvent: {}
+[16.600361] (-) TimerEvent: {}
+[16.700790] (-) TimerEvent: {}
+[16.801082] (-) TimerEvent: {}
+[16.901416] (-) TimerEvent: {}
+[17.001710] (-) TimerEvent: {}
+[17.102014] (-) TimerEvent: {}
+[17.202423] (-) TimerEvent: {}
+[17.302748] (-) TimerEvent: {}
+[17.403080] (-) TimerEvent: {}
+[17.503403] (-) TimerEvent: {}
+[17.603698] (-) TimerEvent: {}
+[17.704016] (-) TimerEvent: {}
+[17.804359] (-) TimerEvent: {}
+[17.904647] (-) TimerEvent: {}
+[18.004939] (-) TimerEvent: {}
+[18.105278] (-) TimerEvent: {}
+[18.205563] (-) TimerEvent: {}
+[18.264932] (warehouse_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[18.270285] (warehouse_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[18.306219] (-) TimerEvent: {}
+[18.406826] (-) TimerEvent: {}
+[18.508249] (-) TimerEvent: {}
+[18.608882] (-) TimerEvent: {}
+[18.710350] (-) TimerEvent: {}
+[18.756363] (warehouse_description) StdoutLine: {'line': b'--   Found libzmq, version 4.3.5\n'}
+[18.810575] (-) TimerEvent: {}
+[18.911119] (-) TimerEvent: {}
+[18.965293] (warehouse_description) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[19.011234] (-) TimerEvent: {}
+[19.054616] (warehouse_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[19.090637] (warehouse_description) StdoutLine: {'line': b'--   Found uuid, version 2.39.3\n'}
+[19.111409] (-) TimerEvent: {}
+[19.132426] (warehouse_description) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[19.132864] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[19.159551] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[19.159862] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[19.211631] (-) TimerEvent: {}
+[19.311971] (-) TimerEvent: {}
+[19.412256] (-) TimerEvent: {}
+[19.512600] (-) TimerEvent: {}
+[19.612906] (-) TimerEvent: {}
+[19.713223] (-) TimerEvent: {}
+[19.813561] (-) TimerEvent: {}
+[19.913890] (-) TimerEvent: {}
+[20.014178] (-) TimerEvent: {}
+[20.114529] (-) TimerEvent: {}
+[20.214875] (-) TimerEvent: {}
+[20.315257] (-) TimerEvent: {}
+[20.415538] (-) TimerEvent: {}
+[20.515832] (-) TimerEvent: {}
+[20.616147] (-) TimerEvent: {}
+[20.716426] (-) TimerEvent: {}
+[20.816729] (-) TimerEvent: {}
+[20.917014] (-) TimerEvent: {}
+[20.941773] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[20.942173] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[20.995428] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [log]\n'}
+[21.002153] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-transport13-log -- found version 13.4.1\n'}
+[21.002488] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-log\n'}
+[21.004415] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [parameters]\n'}
+[21.010532] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-transport13-parameters -- found version 13.4.1\n'}
+[21.010824] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-parameters\n'}
+[21.013491] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[21.017106] (-) TimerEvent: {}
+[21.117925] (-) TimerEvent: {}
+[21.158758] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[21.160043] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[21.161505] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[21.218268] (-) TimerEvent: {}
+[21.319001] (-) TimerEvent: {}
+[21.331904] (warehouse_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[21.391029] (warehouse_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[21.392490] (warehouse_description) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[21.419900] (-) TimerEvent: {}
+[21.423807] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[21.429123] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.7.1\n'}
+[21.429453] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[21.435606] (warehouse_description) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[21.458038] (warehouse_description) StdoutLine: {'line': b'--   Found libswscale, version 7.5.100\n'}
+[21.508316] (warehouse_description) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[21.515736] (warehouse_description) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[21.520421] (-) TimerEvent: {}
+[21.541526] (warehouse_description) StdoutLine: {'line': b'--   Found libavdevice, version 60.3.100\n'}
+[21.606507] (warehouse_description) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[21.612966] (warehouse_description) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[21.620659] (-) TimerEvent: {}
+[21.633103] (warehouse_description) StdoutLine: {'line': b'--   Found libavformat, version 60.16.100\n'}
+[21.681730] (warehouse_description) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[21.699346] (warehouse_description) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[21.717537] (warehouse_description) StdoutLine: {'line': b'--   Found libavcodec, version 60.31.102\n'}
+[21.720796] (-) TimerEvent: {}
+[21.771774] (warehouse_description) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[21.778838] (warehouse_description) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[21.801329] (warehouse_description) StdoutLine: {'line': b'--   Found libavutil, version 58.29.100\n'}
+[21.820975] (-) TimerEvent: {}
+[21.851278] (warehouse_description) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[21.876054] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[21.882745] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.7.1\n'}
+[21.883144] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[21.883550] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[21.886408] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[21.891999] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.7.1\n'}
+[21.892318] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[21.892646] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[21.921715] (-) TimerEvent: {}
+[21.950492] (warehouse_description) StdoutLine: {'line': b'-- Found GzAssimp: TRUE (found version "5.3.0") \n'}
+[21.952420] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[21.968787] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.7.1\n'}
+[21.968974] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[21.970694] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[21.978915] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.7.1\n'}
+[21.979445] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[21.997462] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-fuel_tools9 -- found version 9.1.1\n'}
+[21.997823] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools9\n'}
+[22.021900] (-) TimerEvent: {}
+[22.122201] (-) TimerEvent: {}
+[22.222522] (-) TimerEvent: {}
+[22.322818] (-) TimerEvent: {}
+[22.423186] (-) TimerEvent: {}
+[22.523463] (-) TimerEvent: {}
+[22.623760] (-) TimerEvent: {}
+[22.724092] (-) TimerEvent: {}
+[22.824416] (-) TimerEvent: {}
+[22.924752] (-) TimerEvent: {}
+[23.025100] (-) TimerEvent: {}
+[23.125385] (-) TimerEvent: {}
+[23.225721] (-) TimerEvent: {}
+[23.326106] (-) TimerEvent: {}
+[23.426441] (-) TimerEvent: {}
+[23.526772] (-) TimerEvent: {}
+[23.627106] (-) TimerEvent: {}
+[23.727511] (-) TimerEvent: {}
+[23.827836] (-) TimerEvent: {}
+[23.928267] (-) TimerEvent: {}
+[24.028667] (-) TimerEvent: {}
+[24.128995] (-) TimerEvent: {}
+[24.168926] (warehouse_description) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "8.5.0")  \n'}
+[24.210374] (warehouse_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[24.229176] (-) TimerEvent: {}
+[24.231273] (warehouse_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[24.272697] (warehouse_description) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[24.329349] (-) TimerEvent: {}
+[24.429654] (-) TimerEvent: {}
+[24.529997] (-) TimerEvent: {}
+[24.630342] (-) TimerEvent: {}
+[24.730651] (-) TimerEvent: {}
+[24.831057] (-) TimerEvent: {}
+[24.931410] (-) TimerEvent: {}
+[25.031742] (-) TimerEvent: {}
+[25.132070] (-) TimerEvent: {}
+[25.232582] (-) TimerEvent: {}
+[25.332911] (-) TimerEvent: {}
+[25.433240] (-) TimerEvent: {}
+[25.533550] (-) TimerEvent: {}
+[25.633863] (-) TimerEvent: {}
+[25.734186] (-) TimerEvent: {}
+[25.834579] (-) TimerEvent: {}
+[25.935090] (-) TimerEvent: {}
+[26.030059] (warehouse_description) StdoutLine: {'line': b"-- Checking for module 'yaml-0.1'\n"}
+[26.035236] (-) TimerEvent: {}
+[26.050919] (warehouse_description) StdoutLine: {'line': b'--   Found yaml-0.1, version 0.2.5\n'}
+[26.091944] (warehouse_description) StdoutLine: {'line': b'-- Found YAML: TRUE  \n'}
+[26.099834] (warehouse_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[26.135446] (-) TimerEvent: {}
+[26.183569] (warehouse_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[26.235641] (-) TimerEvent: {}
+[26.255145] (warehouse_description) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[26.255830] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[26.256547] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[26.256894] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[26.257445] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[26.257766] (warehouse_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[26.257957] (warehouse_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[26.268017] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[26.275992] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.7.1\n'}
+[26.276361] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[26.278660] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[26.279161] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[26.301798] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-gui8 -- found version 8.4.0\n'}
+[26.302187] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui8\n'}
+[26.335760] (-) TimerEvent: {}
+[26.436044] (-) TimerEvent: {}
+[26.536347] (-) TimerEvent: {}
+[26.636677] (-) TimerEvent: {}
+[26.736972] (-) TimerEvent: {}
+[26.837309] (-) TimerEvent: {}
+[26.937647] (-) TimerEvent: {}
+[27.038039] (-) TimerEvent: {}
+[27.138359] (-) TimerEvent: {}
+[27.238690] (-) TimerEvent: {}
+[27.339007] (-) TimerEvent: {}
+[27.439293] (-) TimerEvent: {}
+[27.539659] (-) TimerEvent: {}
+[27.639938] (-) TimerEvent: {}
+[27.740348] (-) TimerEvent: {}
+[27.840680] (-) TimerEvent: {}
+[27.941027] (-) TimerEvent: {}
+[28.015478] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[28.015879] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[28.016351] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[28.016805] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[28.017310] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[28.041208] (-) TimerEvent: {}
+[28.142282] (-) TimerEvent: {}
+[28.243769] (-) TimerEvent: {}
+[28.244890] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[28.246116] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[28.248271] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[28.249410] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[28.250575] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[28.251834] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[28.343897] (-) TimerEvent: {}
+[28.444770] (-) TimerEvent: {}
+[28.496013] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.5.2\n'}
+[28.496519] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[28.544959] (-) TimerEvent: {}
+[28.582776] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[28.583344] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[28.583864] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[28.584254] (warehouse_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[28.584455] (warehouse_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[28.599543] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[28.599784] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[28.599919] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[28.609813] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.7.1\n'}
+[28.610318] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[28.610996] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[28.611983] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[28.615627] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[28.616118] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[28.617353] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[28.618312] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[28.633798] (warehouse_description) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.4\n'}
+[28.634841] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[28.637270] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[28.645131] (-) TimerEvent: {}
+[28.746209] (-) TimerEvent: {}
+[28.846540] (-) TimerEvent: {}
+[28.946872] (-) TimerEvent: {}
+[29.047235] (-) TimerEvent: {}
+[29.147752] (-) TimerEvent: {}
+[29.248120] (-) TimerEvent: {}
+[29.348442] (-) TimerEvent: {}
+[29.448761] (-) TimerEvent: {}
+[29.549109] (-) TimerEvent: {}
+[29.649431] (-) TimerEvent: {}
+[29.749757] (-) TimerEvent: {}
+[29.844149] (warehouse_description) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[29.850108] (-) TimerEvent: {}
+[29.862468] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[29.950775] (-) TimerEvent: {}
+[30.052107] (-) TimerEvent: {}
+[30.152817] (-) TimerEvent: {}
+[30.253688] (-) TimerEvent: {}
+[30.354898] (-) TimerEvent: {}
+[30.456191] (-) TimerEvent: {}
+[30.557114] (-) TimerEvent: {}
+[30.657508] (-) TimerEvent: {}
+[30.758505] (-) TimerEvent: {}
+[30.859169] (-) TimerEvent: {}
+[30.960426] (-) TimerEvent: {}
+[31.061143] (-) TimerEvent: {}
+[31.161885] (-) TimerEvent: {}
+[31.262888] (-) TimerEvent: {}
+[31.363664] (-) TimerEvent: {}
+[31.464350] (-) TimerEvent: {}
+[31.565207] (-) TimerEvent: {}
+[31.665968] (-) TimerEvent: {}
+[31.686666] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-physics7 -- found version 7.5.0\n'}
+[31.687318] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7\n'}
+[31.687723] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[31.688479] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[31.689188] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[31.689902] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[31.713107] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [heightmap]\n'}
+[31.720260] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-physics7-heightmap -- found version 7.5.0\n'}
+[31.720815] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-heightmap\n'}
+[31.721269] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[31.722722] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [mesh]\n'}
+[31.729549] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-physics7-mesh -- found version 7.5.0\n'}
+[31.729962] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-mesh\n'}
+[31.730382] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[31.731607] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [sdf]\n'}
+[31.736543] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-physics7-sdf -- found version 7.5.0\n'}
+[31.736892] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-sdf\n'}
+[31.737223] (warehouse_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.7.0\n'}
+[31.761741] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[31.762050] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[31.766102] (-) TimerEvent: {}
+[31.866372] (-) TimerEvent: {}
+[31.966688] (-) TimerEvent: {}
+[32.067023] (-) TimerEvent: {}
+[32.167311] (-) TimerEvent: {}
+[32.267627] (-) TimerEvent: {}
+[32.367935] (-) TimerEvent: {}
+[32.468295] (-) TimerEvent: {}
+[32.568582] (-) TimerEvent: {}
+[32.668973] (-) TimerEvent: {}
+[32.769308] (-) TimerEvent: {}
+[32.869600] (-) TimerEvent: {}
+[32.969890] (-) TimerEvent: {}
+[33.070181] (-) TimerEvent: {}
+[33.170471] (-) TimerEvent: {}
+[33.270786] (-) TimerEvent: {}
+[33.371158] (-) TimerEvent: {}
+[33.471447] (-) TimerEvent: {}
+[33.516535] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[33.516946] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[33.517408] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[33.517871] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[33.518321] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[33.518780] (warehouse_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.7.0\n'}
+[33.572281] (-) TimerEvent: {}
+[33.636134] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_pressure]\n'}
+[33.640309] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_pressure -- found version 8.2.2\n'}
+[33.640618] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_pressure\n'}
+[33.642391] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_speed]\n'}
+[33.646748] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_speed -- found version 8.2.2\n'}
+[33.647036] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_speed\n'}
+[33.648318] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [altimeter]\n'}
+[33.652745] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-altimeter -- found version 8.2.2\n'}
+[33.652977] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-altimeter\n'}
+[33.654721] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [imu]\n'}
+[33.673047] (-) TimerEvent: {}
+[33.760457] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-imu -- found version 8.2.2\n'}
+[33.761128] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-imu\n'}
+[33.764142] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [force_torque]\n'}
+[33.773895] (-) TimerEvent: {}
+[33.804990] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-force_torque -- found version 8.2.2\n'}
+[33.805517] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-force_torque\n'}
+[33.816268] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [logical_camera]\n'}
+[33.874652] (-) TimerEvent: {}
+[33.958457] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-logical_camera -- found version 8.2.2\n'}
+[33.959023] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-logical_camera\n'}
+[33.975117] (-) TimerEvent: {}
+[34.076470] (-) TimerEvent: {}
+[34.156127] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [magnetometer]\n'}
+[34.161729] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-magnetometer -- found version 8.2.2\n'}
+[34.162030] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-magnetometer\n'}
+[34.163932] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [navsat]\n'}
+[34.168849] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-navsat -- found version 8.2.2\n'}
+[34.169131] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-navsat\n'}
+[34.170811] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [dvl]\n'}
+[34.175783] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-dvl -- found version 8.2.2\n'}
+[34.175979] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-dvl\n'}
+[34.176476] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[34.176718] (-) TimerEvent: {}
+[34.176843] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[34.276848] (-) TimerEvent: {}
+[34.377184] (-) TimerEvent: {}
+[34.477520] (-) TimerEvent: {}
+[34.577867] (-) TimerEvent: {}
+[34.678248] (-) TimerEvent: {}
+[34.778624] (-) TimerEvent: {}
+[34.878915] (-) TimerEvent: {}
+[34.979268] (-) TimerEvent: {}
+[35.079674] (-) TimerEvent: {}
+[35.180098] (-) TimerEvent: {}
+[35.280435] (-) TimerEvent: {}
+[35.380775] (-) TimerEvent: {}
+[35.481110] (-) TimerEvent: {}
+[35.581444] (-) TimerEvent: {}
+[35.681779] (-) TimerEvent: {}
+[35.782066] (-) TimerEvent: {}
+[35.882351] (-) TimerEvent: {}
+[35.982651] (-) TimerEvent: {}
+[36.005157] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[36.005568] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.1\n'}
+[36.006071] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.1\n'}
+[36.006549] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[36.006998] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.2\n'}
+[36.007532] (warehouse_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.7.0\n'}
+[36.007833] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[36.083473] (-) TimerEvent: {}
+[36.184561] (-) TimerEvent: {}
+[36.286082] (-) TimerEvent: {}
+[36.387454] (-) TimerEvent: {}
+[36.488223] (-) TimerEvent: {}
+[36.553545] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-rendering -- found version 8.2.2\n'}
+[36.553931] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rendering\n'}
+[36.573073] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[36.573264] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [lidar]\n'}
+[36.588409] (-) TimerEvent: {}
+[36.589311] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-lidar -- found version 8.2.2\n'}
+[36.589744] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-lidar\n'}
+[36.590160] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[36.606851] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [gpu_lidar]\n'}
+[36.622575] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2\n'}
+[36.622935] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-gpu_lidar\n'}
+[36.623530] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[36.625694] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [camera]\n'}
+[36.654605] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-camera -- found version 8.2.2\n'}
+[36.654931] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-camera\n'}
+[36.655281] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[36.666007] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [boundingbox_camera]\n'}
+[36.689192] (-) TimerEvent: {}
+[36.782676] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2\n'}
+[36.783425] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-boundingbox_camera\n'}
+[36.789429] (-) TimerEvent: {}
+[36.799957] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [segmentation_camera]\n'}
+[36.817948] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2\n'}
+[36.818599] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-segmentation_camera\n'}
+[36.821526] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [depth_camera]\n'}
+[36.854734] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-depth_camera -- found version 8.2.2\n'}
+[36.855298] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-depth_camera\n'}
+[36.856113] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[36.872121] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rgbd_camera]\n'}
+[36.889383] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2\n'}
+[36.889943] (-) TimerEvent: {}
+[36.890145] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rgbd_camera\n'}
+[36.890537] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[36.934291] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [thermal_camera]\n'}
+[36.990220] (-) TimerEvent: {}
+[37.091198] (-) TimerEvent: {}
+[37.192445] (-) TimerEvent: {}
+[37.293872] (-) TimerEvent: {}
+[37.395196] (-) TimerEvent: {}
+[37.496769] (-) TimerEvent: {}
+[37.591945] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-thermal_camera -- found version 8.2.2\n'}
+[37.592320] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-thermal_camera\n'}
+[37.592682] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.2\n'}
+[37.597282] (-) TimerEvent: {}
+[37.611250] (warehouse_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [wide_angle_camera]\n'}
+[37.627486] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2\n'}
+[37.627777] (warehouse_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-wide_angle_camera\n'}
+[37.629979] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.2\n'}
+[37.630383] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.2\n'}
+[37.630838] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.1\n'}
+[37.697442] (-) TimerEvent: {}
+[37.797732] (-) TimerEvent: {}
+[37.898067] (-) TimerEvent: {}
+[37.998352] (-) TimerEvent: {}
+[38.098632] (-) TimerEvent: {}
+[38.198997] (-) TimerEvent: {}
+[38.299280] (-) TimerEvent: {}
+[38.399567] (-) TimerEvent: {}
+[38.499899] (-) TimerEvent: {}
+[38.600224] (-) TimerEvent: {}
+[38.700521] (-) TimerEvent: {}
+[38.800860] (-) TimerEvent: {}
+[38.901153] (-) TimerEvent: {}
+[39.001448] (-) TimerEvent: {}
+[39.101730] (-) TimerEvent: {}
+[39.202008] (-) TimerEvent: {}
+[39.302292] (-) TimerEvent: {}
+[39.403305] (-) TimerEvent: {}
+[39.502926] (warehouse_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.4\n'}
+[39.504017] (-) TimerEvent: {}
+[39.526521] (warehouse_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[39.604365] (-) TimerEvent: {}
+[39.704878] (-) TimerEvent: {}
+[39.715185] (warehouse_description) StderrLine: {'line': b"Error parsing '/home/aidin/warehouse_auto_ws/src/warehouse_description/package.xml':\n"}
+[39.805876] (-) TimerEvent: {}
+[39.906256] (-) TimerEvent: {}
+[40.007165] (-) TimerEvent: {}
+[40.107833] (-) TimerEvent: {}
+[40.208880] (-) TimerEvent: {}
+[40.309586] (-) TimerEvent: {}
+[40.410718] (-) TimerEvent: {}
+[40.511900] (-) TimerEvent: {}
+[40.613276] (-) TimerEvent: {}
+[40.713602] (-) TimerEvent: {}
+[40.813994] (-) TimerEvent: {}
+[40.914759] (-) TimerEvent: {}
+[41.015971] (-) TimerEvent: {}
+[41.116617] (-) TimerEvent: {}
+[41.217963] (-) TimerEvent: {}
+[41.318857] (-) TimerEvent: {}
+[41.419954] (-) TimerEvent: {}
+[41.521340] (-) TimerEvent: {}
+[41.622063] (-) TimerEvent: {}
+[41.722823] (-) TimerEvent: {}
+[41.823239] (-) TimerEvent: {}
+[41.924227] (-) TimerEvent: {}
+[42.025123] (-) TimerEvent: {}
+[42.126230] (-) TimerEvent: {}
+[42.226912] (-) TimerEvent: {}
+[42.327815] (-) TimerEvent: {}
+[42.428794] (-) TimerEvent: {}
+[42.530355] (-) TimerEvent: {}
+[42.631656] (-) TimerEvent: {}
+[42.732751] (-) TimerEvent: {}
+[42.833534] (-) TimerEvent: {}
+[42.934090] (-) TimerEvent: {}
+[43.034645] (-) TimerEvent: {}
+[43.135317] (-) TimerEvent: {}
+[43.236893] (-) TimerEvent: {}
+[43.337975] (-) TimerEvent: {}
+[43.439277] (-) TimerEvent: {}
+[43.540273] (-) TimerEvent: {}
+[43.641460] (-) TimerEvent: {}
+[43.742454] (-) TimerEvent: {}
+[43.843774] (-) TimerEvent: {}
+[43.944282] (-) TimerEvent: {}
+[44.044858] (-) TimerEvent: {}
+[44.145778] (-) TimerEvent: {}
+[44.247216] (-) TimerEvent: {}
+[44.348629] (-) TimerEvent: {}
+[44.450046] (-) TimerEvent: {}
+[44.550629] (-) TimerEvent: {}
+[44.651726] (-) TimerEvent: {}
+[44.752572] (-) TimerEvent: {}
+[44.853736] (-) TimerEvent: {}
+[44.954315] (-) TimerEvent: {}
+[45.055037] (-) TimerEvent: {}
+[45.155648] (-) TimerEvent: {}
+[45.256292] (-) TimerEvent: {}
+[45.357633] (-) TimerEvent: {}
+[45.459192] (-) TimerEvent: {}
+[45.560341] (-) TimerEvent: {}
+[45.661333] (-) TimerEvent: {}
+[45.762135] (-) TimerEvent: {}
+[45.863032] (-) TimerEvent: {}
+[45.963892] (-) TimerEvent: {}
+[46.064497] (-) TimerEvent: {}
+[46.165077] (-) TimerEvent: {}
+[46.266399] (-) TimerEvent: {}
+[46.367825] (-) TimerEvent: {}
+[46.469052] (-) TimerEvent: {}
+[46.569776] (-) TimerEvent: {}
+[46.670775] (-) TimerEvent: {}
+[46.772561] (-) TimerEvent: {}
+[46.873904] (-) TimerEvent: {}
+[46.974888] (-) TimerEvent: {}
+[47.076060] (-) TimerEvent: {}
+[47.176849] (-) TimerEvent: {}
+[47.277295] (-) TimerEvent: {}
+[47.377923] (-) TimerEvent: {}
+[47.478849] (-) TimerEvent: {}
+[47.580360] (-) TimerEvent: {}
+[47.681178] (-) TimerEvent: {}
+[47.781984] (-) TimerEvent: {}
+[47.882724] (-) TimerEvent: {}
+[47.983744] (-) TimerEvent: {}
+[48.084648] (-) TimerEvent: {}
+[48.185309] (-) TimerEvent: {}
+[48.285713] (-) TimerEvent: {}
+[48.386205] (-) TimerEvent: {}
+[48.486743] (-) TimerEvent: {}
+[48.587135] (-) TimerEvent: {}
+[48.688291] (-) TimerEvent: {}
+[48.788707] (-) TimerEvent: {}
+[48.889385] (-) TimerEvent: {}
+[48.990027] (-) TimerEvent: {}
+[49.091229] (-) TimerEvent: {}
+[49.192106] (-) TimerEvent: {}
+[49.292694] (-) TimerEvent: {}
+[49.393051] (-) TimerEvent: {}
+[49.493406] (-) TimerEvent: {}
+[49.594297] (-) TimerEvent: {}
+[49.695734] (-) TimerEvent: {}
+[49.796926] (-) TimerEvent: {}
+[49.898207] (-) TimerEvent: {}
+[49.999352] (-) TimerEvent: {}
+[50.100514] (-) TimerEvent: {}
+[50.201426] (-) TimerEvent: {}
+[50.302069] (-) TimerEvent: {}
+[50.402480] (-) TimerEvent: {}
+[50.503718] (-) TimerEvent: {}
+[50.605149] (-) TimerEvent: {}
+[50.705804] (-) TimerEvent: {}
+[50.806599] (-) TimerEvent: {}
+[50.907065] (-) TimerEvent: {}
+[51.008236] (-) TimerEvent: {}
+[51.108925] (-) TimerEvent: {}
+[51.210000] (-) TimerEvent: {}
+[51.310976] (-) TimerEvent: {}
+[51.412189] (-) TimerEvent: {}
+[51.512717] (-) TimerEvent: {}
+[51.613936] (-) TimerEvent: {}
+[51.714649] (-) TimerEvent: {}
+[51.816850] (-) TimerEvent: {}
+[51.925354] (-) TimerEvent: {}
+[52.034812] (-) TimerEvent: {}
+[52.143597] (-) TimerEvent: {}
+[52.248369] (-) TimerEvent: {}
+[52.357629] (-) TimerEvent: {}
+[52.466422] (-) TimerEvent: {}
+[52.574409] (-) TimerEvent: {}
+[52.679221] (-) TimerEvent: {}
+[52.788335] (-) TimerEvent: {}
+[52.898028] (-) TimerEvent: {}
+[53.006827] (-) TimerEvent: {}
+[53.115606] (-) TimerEvent: {}
+[53.224906] (-) TimerEvent: {}
+[53.334171] (-) TimerEvent: {}
+[53.443045] (-) TimerEvent: {}
+[53.551849] (-) TimerEvent: {}
+[53.660788] (-) TimerEvent: {}
+[53.769939] (-) TimerEvent: {}
+[53.878896] (-) TimerEvent: {}
+[53.987956] (-) TimerEvent: {}
+[54.096113] (-) TimerEvent: {}
+[54.204784] (-) TimerEvent: {}
+[54.314177] (-) TimerEvent: {}
+[54.423024] (-) TimerEvent: {}
+[54.531708] (-) TimerEvent: {}
+[54.634693] (-) TimerEvent: {}
+[54.743459] (-) TimerEvent: {}
+[54.852161] (-) TimerEvent: {}
+[54.960879] (-) TimerEvent: {}
+[55.069629] (-) TimerEvent: {}
+[55.178674] (-) TimerEvent: {}
+[55.287719] (-) TimerEvent: {}
+[55.396933] (-) TimerEvent: {}
+[55.500492] (-) TimerEvent: {}
+[55.602512] (-) TimerEvent: {}
+[55.711723] (-) TimerEvent: {}
+[55.821226] (-) TimerEvent: {}
+[55.930475] (-) TimerEvent: {}
+[56.039326] (-) TimerEvent: {}
+[56.148093] (-) TimerEvent: {}
+[56.256610] (-) TimerEvent: {}
+[56.365504] (-) TimerEvent: {}
+[56.474460] (-) TimerEvent: {}
+[56.583399] (-) TimerEvent: {}
+[56.692220] (-) TimerEvent: {}
+[56.801008] (-) TimerEvent: {}
+[56.909818] (-) TimerEvent: {}
+[57.018796] (-) TimerEvent: {}
+[57.128132] (-) TimerEvent: {}
+[57.237198] (-) TimerEvent: {}
+[57.346345] (-) TimerEvent: {}
+[57.455388] (-) TimerEvent: {}
+[57.563724] (-) TimerEvent: {}
+[57.670027] (-) TimerEvent: {}
+[57.779348] (-) TimerEvent: {}
+[57.888416] (-) TimerEvent: {}
+[57.998090] (-) TimerEvent: {}
+[58.107449] (-) TimerEvent: {}
+[58.216748] (-) TimerEvent: {}
+[58.325555] (-) TimerEvent: {}
+[58.434262] (-) TimerEvent: {}
+[58.535662] (-) TimerEvent: {}
+[58.639244] (-) TimerEvent: {}
+[58.748091] (-) TimerEvent: {}
+[58.857335] (-) TimerEvent: {}
+[58.966762] (-) TimerEvent: {}
+[59.075623] (-) TimerEvent: {}
+[59.184954] (-) TimerEvent: {}
+[59.294226] (-) TimerEvent: {}
+[59.403015] (-) TimerEvent: {}
+[59.511428] (-) TimerEvent: {}
+[59.620239] (-) TimerEvent: {}
+[59.729119] (-) TimerEvent: {}
+[59.749621] (warehouse_description) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[59.750455] (warehouse_description) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[59.750830] (warehouse_description) StderrLine: {'line': b'    main()\n'}
+[59.751051] (warehouse_description) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[59.751224] (warehouse_description) StderrLine: {'line': b'    raise e\n'}
+[59.751362] (warehouse_description) StderrLine: {'line': b'  File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[59.751493] (warehouse_description) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[59.751620] (warehouse_description) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^\n'}
+[59.751746] (warehouse_description) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[59.751900] (warehouse_description) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[59.752023] (warehouse_description) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/aidin/warehouse_auto_ws/src/warehouse_description/package.xml':\n"}
+[59.752147] (warehouse_description) StderrLine: {'line': b'Error(s):\n'}
+[59.752270] (warehouse_description) StderrLine: {'line': b"- The generic dependency on 'rclcpp' is redundant with: build_depend, build_export_depend, exec_depend\n"}
+[59.752393] (warehouse_description) StderrLine: {'line': b"- The generic dependency on 'ros_gz_bridge' is redundant with: build_depend, build_export_depend, exec_depend\n"}
+[59.752570] (warehouse_description) StderrLine: {'line': b"- The generic dependency on 'ros_gz_sim' is redundant with: build_depend, build_export_depend, exec_depend\n"}
+[59.835713] (-) TimerEvent: {}
+[59.846805] (warehouse_description) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[59.847047] (warehouse_description) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[59.847147] (warehouse_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[59.847231] (warehouse_description) StderrLine: {'line': b'  /home/aidin/warehouse_auto_ws/src/warehouse_description/package.xml\n'}
+[59.847309] (warehouse_description) StderrLine: {'line': b'  /home/aidin/warehouse_auto_ws/build/warehouse_description/ament_cmake_core/package.cmake)\n'}
+[59.847387] (warehouse_description) StderrLine: {'line': b'  returned error code 1\n'}
+[59.847516] (warehouse_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[59.847669] (warehouse_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[59.847829] (warehouse_description) StderrLine: {'line': b'  /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[59.847960] (warehouse_description) StderrLine: {'line': b'  CMakeLists.txt:36 (ament_lint_auto_find_test_dependencies)\n'}
+[59.848118] (warehouse_description) StderrLine: {'line': b'\n'}
+[59.848434] (warehouse_description) StderrLine: {'line': b'\x1b[0m\n'}
+[59.848535] (warehouse_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[59.869651] (warehouse_description) CommandEnded: {'returncode': 1}
+[59.895818] (warehouse_description) JobEnded: {'identifier': 'warehouse_description', 'rc': 1}
+[59.910010] (-) EventReactorShutdown: {}

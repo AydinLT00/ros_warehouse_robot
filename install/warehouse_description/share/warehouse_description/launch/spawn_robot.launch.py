@@ -1,0 +1,1 @@
+/home/aidin/warehouse_auto_ws/src/warehouse_description/launch/spawn_robot.launch.py

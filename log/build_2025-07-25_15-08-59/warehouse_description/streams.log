@@ -1,0 +1,32 @@
+[0.127s] Invoking command in '/home/aidin/warehouse_auto_ws/build/warehouse_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][?]\[[0m\] 
+\[[1;32m\]❯\[[0m\] /usr/bin/cmake --build /home/aidin/warehouse_auto_ws/build/warehouse_description -- -j12 -l12
+[1.117s] Invoked command in '/home/aidin/warehouse_auto_ws/build/warehouse_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][?]\[[0m\] 
+\[[1;32m\]❯\[[0m\] /usr/bin/cmake --build /home/aidin/warehouse_auto_ws/build/warehouse_description -- -j12 -l12
+[1.135s] Invoking command in '/home/aidin/warehouse_auto_ws/build/warehouse_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][?]\[[0m\] 
+\[[1;32m\]❯\[[0m\] /usr/bin/cmake --install /home/aidin/warehouse_auto_ws/build/warehouse_description
+[1.171s] -- Install configuration: ""
+[1.209s] -- Execute custom install script
+[1.215s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/launch/spawn_robot.launch.py
+[1.215s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/urdf/warehouse_robot.urdf
+[1.216s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/worlds/empty_world.sdf
+[1.216s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/ament_index/resource_index/package_run_dependencies/warehouse_description
+[1.217s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/ament_index/resource_index/parent_prefix_path/warehouse_description
+[1.217s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/ament_prefix_path.sh
+[1.217s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/ament_prefix_path.dsv
+[1.218s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/path.sh
+[1.218s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/path.dsv
+[1.218s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.bash
+[1.218s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.sh
+[1.219s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.zsh
+[1.219s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.dsv
+[1.219s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/package.dsv
+[1.238s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/ament_index/resource_index/packages/warehouse_description
+[1.238s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/cmake/warehouse_descriptionConfig.cmake
+[1.238s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/cmake/warehouse_descriptionConfig-version.cmake
+[1.238s] -- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/package.xml
+[1.242s] Invoked command in '/home/aidin/warehouse_auto_ws/build/warehouse_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][?]\[[0m\] 
+\[[1;32m\]❯\[[0m\] /usr/bin/cmake --install /home/aidin/warehouse_auto_ws/build/warehouse_description

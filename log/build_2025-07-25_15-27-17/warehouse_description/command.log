@@ -1,0 +1,6 @@
+Invoking command in '/home/aidin/warehouse_auto_ws/build/warehouse_description': PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][?]\[[0m\] took \[[1;33m\]3m31s\[[0m\] 
+\[[1;32m\]❯\[[0m\] /usr/bin/cmake /home/aidin/warehouse_auto_ws/src/warehouse_description -DCMAKE_INSTALL_PREFIX=/home/aidin/warehouse_auto_ws/install/warehouse_description
+Invoked command in '/home/aidin/warehouse_auto_ws/build/warehouse_description' returned '1': PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][?]\[[0m\] took \[[1;33m\]3m31s\[[0m\] 
+\[[1;32m\]❯\[[0m\] /usr/bin/cmake /home/aidin/warehouse_auto_ws/src/warehouse_description -DCMAKE_INSTALL_PREFIX=/home/aidin/warehouse_auto_ws/install/warehouse_description

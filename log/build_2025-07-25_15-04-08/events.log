@@ -1,0 +1,333 @@
+[0.000000] (-) TimerEvent: {}
+[0.000922] (warehouse_description) JobQueued: {'identifier': 'warehouse_description', 'dependencies': OrderedDict()}
+[0.000958] (warehouse_description) JobStarted: {'identifier': 'warehouse_description'}
+[0.107079] (-) TimerEvent: {}
+[0.215983] (-) TimerEvent: {}
+[0.318957] (-) TimerEvent: {}
+[0.339750] (warehouse_description) JobProgress: {'identifier': 'warehouse_description', 'progress': 'cmake'}
+[0.424767] (-) TimerEvent: {}
+[0.434040] (warehouse_description) Command: {'cmd': ['/usr/bin/cmake', '/home/aidin/warehouse_auto_ws/src/warehouse_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/aidin/warehouse_auto_ws/install/warehouse_description'], 'cwd': '/home/aidin/warehouse_auto_ws/build/warehouse_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aidin', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'STARSHIP_SHELL': 'bash', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{4be4365a-f41d-5903-ba2c-6f1c42edb943}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/aidin', 'OLDPWD': '/home/aidin/warehouse_auto_ws/src', 'NVM_BIN': '/home/aidin/.nvm/versions/node/v22.17.1/bin', 'NVM_INC': '/home/aidin/.nvm/versions/node/v22.17.1/include/node', 'ROS_PYTHON_VERSION': '3', 'PS1': '\n\\[\x1b[1;36m\\]warehouse_auto_ws\\[\x1b[0m\\] on \\[\x1b[1;35m\\]\ue0a0 master\\[\x1b[0m\\] \\[\x1b[1;31m\\][?]\\[\x1b[0m\\] \n\\[\x1b[1;32m\\]❯\\[\x1b[0m\\]', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu2-24.04', 'NVM_DIR': '/home/aidin/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aidin', 'NAME': 'DESKTOP-GBOV0C7', 'WSL_INTEROP': '/run/WSL/714_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/aidin/.nvm/versions/node/v22.17.1/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/g/RoboDK/Python37/Scripts/:/mnt/g/RoboDK/Python37/:/mnt/g/SIMULIA/Commands:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/f/Program Files/MATLAB/R2024b/runtime/win64:/mnt/f/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/f/Program Files/Git/cmd:/mnt/g/Users/98912/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/g/Users/98912/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/98912/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/98912/AppData/Local/Microsoft/WindowsApps:/mnt/g/Users/98912/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/f/Users/98912/AMPL:/mnt/f/Users/98912/AMPL/solvers:/snap/bin', 'WT_SESSION': '1d09ea9a-a41b-4203-874b-95903beab757', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/aidin/warehouse_auto_ws/build/warehouse_description', 'TURTLEBOT3_MODEL': 'burger', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'STARSHIP_SESSION_KEY': '1283520515145502', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.532746] (-) TimerEvent: {}
+[0.684925] (-) TimerEvent: {}
+[0.796183] (-) TimerEvent: {}
+[0.902511] (-) TimerEvent: {}
+[1.011964] (-) TimerEvent: {}
+[1.120798] (-) TimerEvent: {}
+[1.230608] (-) TimerEvent: {}
+[1.335101] (-) TimerEvent: {}
+[1.444222] (-) TimerEvent: {}
+[1.554277] (-) TimerEvent: {}
+[1.663690] (-) TimerEvent: {}
+[1.772834] (-) TimerEvent: {}
+[1.881577] (-) TimerEvent: {}
+[1.990822] (-) TimerEvent: {}
+[2.100452] (-) TimerEvent: {}
+[2.209979] (-) TimerEvent: {}
+[2.314355] (-) TimerEvent: {}
+[2.423347] (-) TimerEvent: {}
+[2.528382] (-) TimerEvent: {}
+[2.638203] (-) TimerEvent: {}
+[2.747639] (-) TimerEvent: {}
+[2.857256] (-) TimerEvent: {}
+[2.966663] (-) TimerEvent: {}
+[3.075382] (-) TimerEvent: {}
+[3.184309] (-) TimerEvent: {}
+[3.293222] (-) TimerEvent: {}
+[3.402837] (-) TimerEvent: {}
+[3.511852] (-) TimerEvent: {}
+[3.621725] (-) TimerEvent: {}
+[3.729127] (-) TimerEvent: {}
+[3.836875] (-) TimerEvent: {}
+[3.946935] (-) TimerEvent: {}
+[4.056066] (-) TimerEvent: {}
+[4.165614] (-) TimerEvent: {}
+[4.274671] (-) TimerEvent: {}
+[4.383384] (-) TimerEvent: {}
+[4.492678] (-) TimerEvent: {}
+[4.602384] (-) TimerEvent: {}
+[4.711780] (-) TimerEvent: {}
+[4.821093] (-) TimerEvent: {}
+[4.930952] (-) TimerEvent: {}
+[5.040425] (-) TimerEvent: {}
+[5.150085] (-) TimerEvent: {}
+[5.258855] (-) TimerEvent: {}
+[5.368248] (-) TimerEvent: {}
+[5.477436] (-) TimerEvent: {}
+[5.584747] (-) TimerEvent: {}
+[5.685906] (-) TimerEvent: {}
+[5.786522] (-) TimerEvent: {}
+[5.895459] (-) TimerEvent: {}
+[6.002593] (-) TimerEvent: {}
+[6.111904] (-) TimerEvent: {}
+[6.221326] (-) TimerEvent: {}
+[6.331394] (-) TimerEvent: {}
+[6.440554] (-) TimerEvent: {}
+[6.546663] (-) TimerEvent: {}
+[6.656010] (-) TimerEvent: {}
+[6.765700] (-) TimerEvent: {}
+[6.875745] (-) TimerEvent: {}
+[6.985258] (-) TimerEvent: {}
+[7.094799] (-) TimerEvent: {}
+[7.199241] (-) TimerEvent: {}
+[7.309015] (-) TimerEvent: {}
+[7.418483] (-) TimerEvent: {}
+[7.527199] (-) TimerEvent: {}
+[7.635715] (-) TimerEvent: {}
+[7.741203] (-) TimerEvent: {}
+[7.850856] (-) TimerEvent: {}
+[7.952477] (-) TimerEvent: {}
+[8.062146] (-) TimerEvent: {}
+[8.163395] (-) TimerEvent: {}
+[8.273273] (-) TimerEvent: {}
+[8.382863] (-) TimerEvent: {}
+[8.492022] (-) TimerEvent: {}
+[8.601381] (-) TimerEvent: {}
+[8.710613] (-) TimerEvent: {}
+[8.819978] (-) TimerEvent: {}
+[8.929481] (-) TimerEvent: {}
+[9.039210] (-) TimerEvent: {}
+[9.148562] (-) TimerEvent: {}
+[9.258589] (-) TimerEvent: {}
+[9.368236] (-) TimerEvent: {}
+[9.477651] (-) TimerEvent: {}
+[9.587691] (-) TimerEvent: {}
+[9.697401] (-) TimerEvent: {}
+[9.806539] (-) TimerEvent: {}
+[9.915175] (-) TimerEvent: {}
+[10.023856] (-) TimerEvent: {}
+[10.125221] (-) TimerEvent: {}
+[10.234321] (-) TimerEvent: {}
+[10.280775] (warehouse_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[10.338864] (-) TimerEvent: {}
+[10.439228] (-) TimerEvent: {}
+[10.544990] (-) TimerEvent: {}
+[10.653762] (-) TimerEvent: {}
+[10.762766] (-) TimerEvent: {}
+[10.871406] (-) TimerEvent: {}
+[10.980133] (-) TimerEvent: {}
+[11.088823] (-) TimerEvent: {}
+[11.189116] (-) TimerEvent: {}
+[11.289445] (-) TimerEvent: {}
+[11.390065] (-) TimerEvent: {}
+[11.491449] (-) TimerEvent: {}
+[11.591789] (-) TimerEvent: {}
+[11.692692] (-) TimerEvent: {}
+[11.793408] (-) TimerEvent: {}
+[11.894589] (-) TimerEvent: {}
+[11.995210] (-) TimerEvent: {}
+[12.096363] (-) TimerEvent: {}
+[12.196923] (-) TimerEvent: {}
+[12.298416] (-) TimerEvent: {}
+[12.399472] (-) TimerEvent: {}
+[12.500296] (-) TimerEvent: {}
+[12.601421] (-) TimerEvent: {}
+[12.702019] (-) TimerEvent: {}
+[12.802994] (-) TimerEvent: {}
+[12.903487] (-) TimerEvent: {}
+[13.004042] (-) TimerEvent: {}
+[13.104620] (-) TimerEvent: {}
+[13.204943] (-) TimerEvent: {}
+[13.305502] (-) TimerEvent: {}
+[13.369656] (warehouse_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[13.405583] (-) TimerEvent: {}
+[13.505873] (-) TimerEvent: {}
+[13.606147] (-) TimerEvent: {}
+[13.706419] (-) TimerEvent: {}
+[13.806690] (-) TimerEvent: {}
+[13.907061] (-) TimerEvent: {}
+[14.007340] (-) TimerEvent: {}
+[14.107615] (-) TimerEvent: {}
+[14.207971] (-) TimerEvent: {}
+[14.308275] (-) TimerEvent: {}
+[14.409260] (-) TimerEvent: {}
+[14.431105] (warehouse_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.509432] (-) TimerEvent: {}
+[14.610726] (-) TimerEvent: {}
+[14.711286] (-) TimerEvent: {}
+[14.811982] (-) TimerEvent: {}
+[14.912406] (-) TimerEvent: {}
+[15.013533] (-) TimerEvent: {}
+[15.113870] (-) TimerEvent: {}
+[15.214145] (-) TimerEvent: {}
+[15.219192] (warehouse_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[15.229000] (warehouse_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[15.231147] (warehouse_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[15.232261] (warehouse_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[15.314243] (-) TimerEvent: {}
+[15.414616] (-) TimerEvent: {}
+[15.416482] (warehouse_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[15.514762] (-) TimerEvent: {}
+[15.615662] (-) TimerEvent: {}
+[15.715999] (-) TimerEvent: {}
+[15.816447] (-) TimerEvent: {}
+[15.837094] (warehouse_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[15.846166] (warehouse_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[15.846531] (warehouse_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[15.846999] (warehouse_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[15.916667] (-) TimerEvent: {}
+[16.017125] (-) TimerEvent: {}
+[16.118108] (-) TimerEvent: {}
+[16.219632] (-) TimerEvent: {}
+[16.320512] (-) TimerEvent: {}
+[16.421354] (-) TimerEvent: {}
+[16.522513] (-) TimerEvent: {}
+[16.623711] (-) TimerEvent: {}
+[16.724557] (-) TimerEvent: {}
+[16.825894] (-) TimerEvent: {}
+[16.926766] (-) TimerEvent: {}
+[17.027849] (-) TimerEvent: {}
+[17.128856] (-) TimerEvent: {}
+[17.230218] (-) TimerEvent: {}
+[17.331272] (-) TimerEvent: {}
+[17.432299] (-) TimerEvent: {}
+[17.533256] (-) TimerEvent: {}
+[17.634233] (-) TimerEvent: {}
+[17.735178] (-) TimerEvent: {}
+[17.822528] (warehouse_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[17.835393] (-) TimerEvent: {}
+[17.935778] (-) TimerEvent: {}
+[18.036277] (-) TimerEvent: {}
+[18.137638] (-) TimerEvent: {}
+[18.238119] (-) TimerEvent: {}
+[18.338588] (-) TimerEvent: {}
+[18.438999] (-) TimerEvent: {}
+[18.539315] (-) TimerEvent: {}
+[18.544635] (warehouse_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[18.639556] (-) TimerEvent: {}
+[18.739979] (-) TimerEvent: {}
+[18.841102] (-) TimerEvent: {}
+[18.941449] (-) TimerEvent: {}
+[19.033403] (warehouse_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[19.041611] (-) TimerEvent: {}
+[19.142547] (-) TimerEvent: {}
+[19.243431] (-) TimerEvent: {}
+[19.344000] (-) TimerEvent: {}
+[19.433142] (warehouse_description) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[19.444206] (-) TimerEvent: {}
+[19.544743] (-) TimerEvent: {}
+[19.645169] (-) TimerEvent: {}
+[19.745473] (-) TimerEvent: {}
+[19.845756] (-) TimerEvent: {}
+[19.946369] (-) TimerEvent: {}
+[20.047504] (-) TimerEvent: {}
+[20.148176] (-) TimerEvent: {}
+[20.249289] (-) TimerEvent: {}
+[20.299991] (warehouse_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[20.349485] (-) TimerEvent: {}
+[20.362499] (warehouse_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[20.449664] (-) TimerEvent: {}
+[20.532518] (warehouse_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[20.549903] (-) TimerEvent: {}
+[20.640735] (warehouse_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[20.650687] (-) TimerEvent: {}
+[20.751477] (-) TimerEvent: {}
+[20.851908] (-) TimerEvent: {}
+[20.952231] (-) TimerEvent: {}
+[21.052870] (-) TimerEvent: {}
+[21.058219] (warehouse_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[21.079877] (warehouse_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[21.153017] (-) TimerEvent: {}
+[21.253908] (-) TimerEvent: {}
+[21.355054] (-) TimerEvent: {}
+[21.456192] (-) TimerEvent: {}
+[21.557016] (-) TimerEvent: {}
+[21.657953] (-) TimerEvent: {}
+[21.758667] (-) TimerEvent: {}
+[21.860096] (-) TimerEvent: {}
+[21.960987] (-) TimerEvent: {}
+[22.062268] (-) TimerEvent: {}
+[22.162726] (-) TimerEvent: {}
+[22.263253] (-) TimerEvent: {}
+[22.364530] (-) TimerEvent: {}
+[22.465586] (-) TimerEvent: {}
+[22.567039] (-) TimerEvent: {}
+[22.668613] (-) TimerEvent: {}
+[22.769513] (-) TimerEvent: {}
+[22.870697] (-) TimerEvent: {}
+[22.971648] (-) TimerEvent: {}
+[23.072586] (-) TimerEvent: {}
+[23.173711] (-) TimerEvent: {}
+[23.274983] (-) TimerEvent: {}
+[23.375912] (-) TimerEvent: {}
+[23.477030] (-) TimerEvent: {}
+[23.578068] (-) TimerEvent: {}
+[23.678675] (-) TimerEvent: {}
+[23.779077] (-) TimerEvent: {}
+[23.880043] (-) TimerEvent: {}
+[23.934316] (warehouse_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[23.980190] (-) TimerEvent: {}
+[24.080616] (-) TimerEvent: {}
+[24.180928] (-) TimerEvent: {}
+[24.281220] (-) TimerEvent: {}
+[24.381530] (-) TimerEvent: {}
+[24.428844] (warehouse_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[24.481707] (-) TimerEvent: {}
+[24.582040] (-) TimerEvent: {}
+[24.682309] (-) TimerEvent: {}
+[24.684818] (warehouse_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[24.782902] (-) TimerEvent: {}
+[24.883744] (-) TimerEvent: {}
+[24.984153] (-) TimerEvent: {}
+[25.084505] (-) TimerEvent: {}
+[25.184783] (-) TimerEvent: {}
+[25.285890] (-) TimerEvent: {}
+[25.329082] (warehouse_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[25.386679] (-) TimerEvent: {}
+[25.487111] (-) TimerEvent: {}
+[25.587427] (-) TimerEvent: {}
+[25.687760] (-) TimerEvent: {}
+[25.788091] (-) TimerEvent: {}
+[25.830579] (warehouse_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[25.830747] (warehouse_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[25.832986] (warehouse_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[25.835378] (warehouse_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[25.839149] (warehouse_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[25.845961] (warehouse_description) StdoutLine: {'line': b'-- Configuring done (20.6s)\n'}
+[25.888782] (-) TimerEvent: {}
+[25.980489] (warehouse_description) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[25.989433] (-) TimerEvent: {}
+[26.089981] (-) TimerEvent: {}
+[26.092607] (warehouse_description) StdoutLine: {'line': b'-- Build files have been written to: /home/aidin/warehouse_auto_ws/build/warehouse_description\n'}
+[26.113674] (warehouse_description) CommandEnded: {'returncode': 0}
+[26.114621] (warehouse_description) JobProgress: {'identifier': 'warehouse_description', 'progress': 'build'}
+[26.115944] (warehouse_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aidin/warehouse_auto_ws/build/warehouse_description', '--', '-j12', '-l12'], 'cwd': '/home/aidin/warehouse_auto_ws/build/warehouse_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aidin', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'STARSHIP_SHELL': 'bash', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{4be4365a-f41d-5903-ba2c-6f1c42edb943}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/aidin', 'OLDPWD': '/home/aidin/warehouse_auto_ws/src', 'NVM_BIN': '/home/aidin/.nvm/versions/node/v22.17.1/bin', 'NVM_INC': '/home/aidin/.nvm/versions/node/v22.17.1/include/node', 'ROS_PYTHON_VERSION': '3', 'PS1': '\n\\[\x1b[1;36m\\]warehouse_auto_ws\\[\x1b[0m\\] on \\[\x1b[1;35m\\]\ue0a0 master\\[\x1b[0m\\] \\[\x1b[1;31m\\][?]\\[\x1b[0m\\] \n\\[\x1b[1;32m\\]❯\\[\x1b[0m\\]', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu2-24.04', 'NVM_DIR': '/home/aidin/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aidin', 'NAME': 'DESKTOP-GBOV0C7', 'WSL_INTEROP': '/run/WSL/714_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/aidin/.nvm/versions/node/v22.17.1/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/g/RoboDK/Python37/Scripts/:/mnt/g/RoboDK/Python37/:/mnt/g/SIMULIA/Commands:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/f/Program Files/MATLAB/R2024b/runtime/win64:/mnt/f/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/f/Program Files/Git/cmd:/mnt/g/Users/98912/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/g/Users/98912/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/98912/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/98912/AppData/Local/Microsoft/WindowsApps:/mnt/g/Users/98912/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/f/Users/98912/AMPL:/mnt/f/Users/98912/AMPL/solvers:/snap/bin', 'WT_SESSION': '1d09ea9a-a41b-4203-874b-95903beab757', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/aidin/warehouse_auto_ws/build/warehouse_description', 'TURTLEBOT3_MODEL': 'burger', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'STARSHIP_SESSION_KEY': '1283520515145502', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[26.172368] (warehouse_description) CommandEnded: {'returncode': 0}
+[26.172889] (warehouse_description) JobProgress: {'identifier': 'warehouse_description', 'progress': 'install'}
+[26.185742] (warehouse_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aidin/warehouse_auto_ws/build/warehouse_description'], 'cwd': '/home/aidin/warehouse_auto_ws/build/warehouse_description', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aidin', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'STARSHIP_SHELL': 'bash', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{4be4365a-f41d-5903-ba2c-6f1c42edb943}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/aidin', 'OLDPWD': '/home/aidin/warehouse_auto_ws/src', 'NVM_BIN': '/home/aidin/.nvm/versions/node/v22.17.1/bin', 'NVM_INC': '/home/aidin/.nvm/versions/node/v22.17.1/include/node', 'ROS_PYTHON_VERSION': '3', 'PS1': '\n\\[\x1b[1;36m\\]warehouse_auto_ws\\[\x1b[0m\\] on \\[\x1b[1;35m\\]\ue0a0 master\\[\x1b[0m\\] \\[\x1b[1;31m\\][?]\\[\x1b[0m\\] \n\\[\x1b[1;32m\\]❯\\[\x1b[0m\\]', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu2-24.04', 'NVM_DIR': '/home/aidin/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aidin', 'NAME': 'DESKTOP-GBOV0C7', 'WSL_INTEROP': '/run/WSL/714_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/aidin/.nvm/versions/node/v22.17.1/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/g/RoboDK/Python37/Scripts/:/mnt/g/RoboDK/Python37/:/mnt/g/SIMULIA/Commands:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/f/Program Files/MATLAB/R2024b/runtime/win64:/mnt/f/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/f/Program Files/Git/cmd:/mnt/g/Users/98912/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/g/Users/98912/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/98912/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/98912/AppData/Local/Microsoft/WindowsApps:/mnt/g/Users/98912/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/f/Users/98912/AMPL:/mnt/f/Users/98912/AMPL/solvers:/snap/bin', 'WT_SESSION': '1d09ea9a-a41b-4203-874b-95903beab757', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/aidin/warehouse_auto_ws/build/warehouse_description', 'TURTLEBOT3_MODEL': 'burger', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'STARSHIP_SESSION_KEY': '1283520515145502', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[26.190138] (-) TimerEvent: {}
+[26.196455] (warehouse_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.196872] (warehouse_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[26.253750] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/launch/spawn_robot.launch.py\n'}
+[26.273843] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/urdf/warehouse_robot.urdf\n'}
+[26.290244] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/worlds/empty_world.sdf\n'}
+[26.290405] (-) TimerEvent: {}
+[26.303352] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/ament_index/resource_index/package_run_dependencies/warehouse_description\n'}
+[26.315981] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/ament_index/resource_index/parent_prefix_path/warehouse_description\n'}
+[26.328265] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/ament_prefix_path.sh\n'}
+[26.340780] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/ament_prefix_path.dsv\n'}
+[26.352771] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/path.sh\n'}
+[26.364900] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/path.dsv\n'}
+[26.380512] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.bash\n'}
+[26.390596] (-) TimerEvent: {}
+[26.392813] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.sh\n'}
+[26.405540] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.zsh\n'}
+[26.417250] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.dsv\n'}
+[26.428904] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/package.dsv\n'}
+[26.440643] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/ament_index/resource_index/packages/warehouse_description\n'}
+[26.452818] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/cmake/warehouse_descriptionConfig.cmake\n'}
+[26.464185] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/cmake/warehouse_descriptionConfig-version.cmake\n'}
+[26.475927] (warehouse_description) StdoutLine: {'line': b'-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/package.xml\n'}
+[26.490663] (warehouse_description) CommandEnded: {'returncode': 0}
+[26.490904] (-) TimerEvent: {}
+[26.591697] (-) TimerEvent: {}
+[26.693070] (-) TimerEvent: {}
+[26.794014] (-) TimerEvent: {}
+[26.895230] (-) TimerEvent: {}
+[26.995683] (-) TimerEvent: {}
+[27.096849] (-) TimerEvent: {}
+[27.198059] (-) TimerEvent: {}
+[27.299058] (-) TimerEvent: {}
+[27.400092] (-) TimerEvent: {}
+[27.501457] (-) TimerEvent: {}
+[27.515029] (warehouse_description) JobEnded: {'identifier': 'warehouse_description', 'rc': 0}
+[27.515654] (-) EventReactorShutdown: {}

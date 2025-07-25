@@ -1,0 +1,72 @@
+[0.438s] Invoking command in '/home/aidin/warehouse_auto_ws/build/warehouse_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][?]\[[0m\] 
+\[[1;32m\]❯\[[0m\] /usr/bin/cmake /home/aidin/warehouse_auto_ws/src/warehouse_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aidin/warehouse_auto_ws/install/warehouse_description
+[10.280s] -- The C compiler identification is GNU 13.3.0
+[13.369s] -- The CXX compiler identification is GNU 13.3.0
+[14.430s] -- Detecting C compiler ABI info
+[15.218s] -- Detecting C compiler ABI info - done
+[15.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[15.230s] -- Detecting C compile features
+[15.231s] -- Detecting C compile features - done
+[15.416s] -- Detecting CXX compiler ABI info
+[15.836s] -- Detecting CXX compiler ABI info - done
+[15.845s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[15.846s] -- Detecting CXX compile features
+[15.846s] -- Detecting CXX compile features - done
+[17.822s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[18.544s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[19.033s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[19.432s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[20.299s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[20.362s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[20.532s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[20.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[21.057s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[21.079s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[23.934s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[24.428s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[24.684s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[25.328s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[25.830s] -- Added test 'flake8' to check Python code syntax and style conventions
+[25.830s] -- Configured 'flake8' exclude dirs and/or files: 
+[25.832s] -- Added test 'lint_cmake' to check CMake code style
+[25.835s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[25.838s] -- Added test 'xmllint' to check XML markup files
+[25.845s] -- Configuring done (20.6s)
+[25.980s] -- Generating done (0.1s)
+[26.092s] -- Build files have been written to: /home/aidin/warehouse_auto_ws/build/warehouse_description
+[26.113s] Invoked command in '/home/aidin/warehouse_auto_ws/build/warehouse_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][?]\[[0m\] 
+\[[1;32m\]❯\[[0m\] /usr/bin/cmake /home/aidin/warehouse_auto_ws/src/warehouse_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/aidin/warehouse_auto_ws/install/warehouse_description
+[26.115s] Invoking command in '/home/aidin/warehouse_auto_ws/build/warehouse_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][?]\[[0m\] 
+\[[1;32m\]❯\[[0m\] /usr/bin/cmake --build /home/aidin/warehouse_auto_ws/build/warehouse_description -- -j12 -l12
+[26.172s] Invoked command in '/home/aidin/warehouse_auto_ws/build/warehouse_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][?]\[[0m\] 
+\[[1;32m\]❯\[[0m\] /usr/bin/cmake --build /home/aidin/warehouse_auto_ws/build/warehouse_description -- -j12 -l12
+[26.185s] Invoking command in '/home/aidin/warehouse_auto_ws/build/warehouse_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][?]\[[0m\] 
+\[[1;32m\]❯\[[0m\] /usr/bin/cmake --install /home/aidin/warehouse_auto_ws/build/warehouse_description
+[26.196s] -- Install configuration: ""
+[26.196s] -- Execute custom install script
+[26.253s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/launch/spawn_robot.launch.py
+[26.273s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/urdf/warehouse_robot.urdf
+[26.289s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/worlds/empty_world.sdf
+[26.303s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/ament_index/resource_index/package_run_dependencies/warehouse_description
+[26.315s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/ament_index/resource_index/parent_prefix_path/warehouse_description
+[26.327s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/ament_prefix_path.sh
+[26.340s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/ament_prefix_path.dsv
+[26.352s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/path.sh
+[26.364s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/path.dsv
+[26.380s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.bash
+[26.392s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.sh
+[26.405s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.zsh
+[26.416s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.dsv
+[26.428s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/package.dsv
+[26.440s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/ament_index/resource_index/packages/warehouse_description
+[26.452s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/cmake/warehouse_descriptionConfig.cmake
+[26.463s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/cmake/warehouse_descriptionConfig-version.cmake
+[26.475s] -- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/package.xml
+[26.490s] Invoked command in '/home/aidin/warehouse_auto_ws/build/warehouse_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][?]\[[0m\] 
+\[[1;32m\]❯\[[0m\] /usr/bin/cmake --install /home/aidin/warehouse_auto_ws/build/warehouse_description
