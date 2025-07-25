@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/launch/spawn_robot.launch.py
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/urdf/warehouse_robot.urdf
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/worlds/empty_world.sdf
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/worlds/empty_world.world
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/config/ekf.yaml
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/ament_index/resource_index/package_run_dependencies/warehouse_description
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/ament_index/resource_index/parent_prefix_path/warehouse_description
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/path.sh
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/path.dsv
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.bash
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.sh
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.zsh
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/local_setup.dsv
+-- Symlinking: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/package.dsv
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/ament_index/resource_index/packages/warehouse_description
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/cmake/warehouse_descriptionConfig.cmake
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/cmake/warehouse_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/package.xml

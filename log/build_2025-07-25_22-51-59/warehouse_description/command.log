@@ -1,0 +1,12 @@
+Invoking command in '/home/aidin/warehouse_auto_ws/build/warehouse_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][!?]\[[0m\] took \[[1;33m\]4s\[[0m\] 
+\[[1;31m\]❯\[[0m\] /usr/bin/cmake --build /home/aidin/warehouse_auto_ws/build/warehouse_description -- -j12 -l12
+Invoked command in '/home/aidin/warehouse_auto_ws/build/warehouse_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][!?]\[[0m\] took \[[1;33m\]4s\[[0m\] 
+\[[1;31m\]❯\[[0m\] /usr/bin/cmake --build /home/aidin/warehouse_auto_ws/build/warehouse_description -- -j12 -l12
+Invoking command in '/home/aidin/warehouse_auto_ws/build/warehouse_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][!?]\[[0m\] took \[[1;33m\]4s\[[0m\] 
+\[[1;31m\]❯\[[0m\] /usr/bin/cmake --install /home/aidin/warehouse_auto_ws/build/warehouse_description
+Invoked command in '/home/aidin/warehouse_auto_ws/build/warehouse_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=
+\[[1;36m\]warehouse_auto_ws\[[0m\] on \[[1;35m\] master\[[0m\] \[[1;31m\][!?]\[[0m\] took \[[1;33m\]4s\[[0m\] 
+\[[1;31m\]❯\[[0m\] /usr/bin/cmake --install /home/aidin/warehouse_auto_ws/build/warehouse_description

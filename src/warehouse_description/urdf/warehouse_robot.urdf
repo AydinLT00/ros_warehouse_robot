@@ -2,6 +2,13 @@
 <robot name="warehouse_robot">
 
   <!-- ======================= LINKS ======================= -->
+  <link name="base_footprint"/>
+
+  <joint name="base_joint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0.0 0.0 0.010" rpy="0 0 0"/>
+  </joint>
 
   <!-- Base Link (Chassis) -->
   <link name="base_link">
@@ -27,6 +34,14 @@
     </inertial>
   </link>
 
+  <!-- Joint connecting Base to Left Wheel -->
+  <joint name="base_to_left_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="left_wheel_link"/>
+    <origin xyz="0.0 0.17 0.0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
   <!-- Left Wheel Link -->
   <link name="left_wheel_link">
     <visual>
@@ -49,6 +64,14 @@
       <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
     </inertial>
   </link>
+
+  <!-- Joint connecting Base to Right Wheel -->
+  <joint name="base_to_right_wheel_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="right_wheel_link"/>
+    <origin xyz="0.0 -0.17 0.0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
 
   <!-- Right Wheel Link -->
   <link name="right_wheel_link">
@@ -96,22 +119,7 @@
 
   <!-- ======================= JOINTS ======================= -->
 
-  <!-- Joint connecting Base to Left Wheel -->
-  <joint name="base_to_left_wheel_joint" type="continuous">
-    <parent link="base_link"/>
-    <child link="left_wheel_link"/>
-    <origin xyz="0.0 0.17 0.0" rpy="0 0 0"/>
-    <axis xyz="0 1 0"/>
-  </joint>
-
-  <!-- Joint connecting Base to Right Wheel -->
-  <joint name="base_to_right_wheel_joint" type="continuous">
-    <parent link="base_link"/>
-    <child link="right_wheel_link"/>
-    <origin xyz="0.0 -0.17 0.0" rpy="0 0 0"/>
-    <axis xyz="0 1 0"/>
-  </joint>
-
+  
   <!-- Joint connecting Base to Caster Wheel -->
   <joint name="base_to_caster_joint" type="fixed">
     <parent link="base_link"/>
@@ -119,6 +127,13 @@
     <origin xyz="-0.15 0 -0.02" rpy="0 0 0"/>
   </joint>
 
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+    <origin xyz="-0.032 0 0.068" rpy="0 0 0"/>
+  </joint>
+
+  <link name="imu_link"/>
   <!-- ======================= GAZEBO PLUGIN ======================= -->
   <gazebo>
     <plugin
@@ -130,13 +145,13 @@
       <topic>/cmd_vel</topic>
       <odom_topic>/odom</odom_topic>
       <odom_frame>odom</odom_frame>
-      <robot_base_frame>base_link</robot_base_frame>
+      <robot_base_frame>base_footprint</robot_base_frame>
       <publish_odom>true</publish_odom>
       <publish_odom_tf>true</publish_odom_tf>
       <publish_wheel_tf>true</publish_wheel_tf>
       <odom_publisher_frequency>50</odom_publisher_frequency>
       <frame_id>odom</frame_id>
-      <child_frame_id>base_link</child_frame_id>
+      <!--child_frame_id>base_link</child_frame_id-->
     </plugin>
   </gazebo>
 

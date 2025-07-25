@@ -4,12 +4,16 @@ from launch import LaunchDescription
 from launch.actions import ExecuteProcess
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
+from launch.substitutions import LaunchConfiguration
+from launch.actions import IncludeLaunchDescription
+from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 def generate_launch_description():
 
+    use_sim_time = LaunchConfiguration('use_sim_time', default='true')
     # Get the path to your package
     pkg_path = get_package_share_directory('warehouse_description')
-    
+    ros_gz_sim = get_package_share_directory('ros_gz_sim')
     # Get the path to your URDF file
     urdf_file_path = os.path.join(pkg_path, 'urdf', 'warehouse_robot.urdf')
 
@@ -21,6 +25,20 @@ def generate_launch_description():
     start_gazebo = ExecuteProcess(
         cmd=['gz', 'sim', '-r', world_file_path],
         output='screen'
+    )
+
+    gzserver_cmd = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(ros_gz_sim, 'launch', 'gz_sim.launch.py')
+        ),
+        launch_arguments={'gz_args': ['-r -s -v2 ', world_file_path], 'on_exit_shutdown': 'true'}.items()
+    )
+
+    gzclient_cmd = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(ros_gz_sim, 'launch', 'gz_sim.launch.py')
+        ),
+        launch_arguments={'gz_args': '-g -v2 ', 'on_exit_shutdown': 'true'}.items()
     )
 
 
@@ -46,7 +64,9 @@ def generate_launch_description():
         executable='robot_state_publisher',
         name='robot_state_publisher',
         output='screen',
-        parameters=[{'robot_description': open(urdf_file_path).read()}]
+        parameters=[{
+            'use_sim_time': use_sim_time,
+            'robot_description': open(urdf_file_path).read()}]
     )
 
     # 3. Spawn the robot in Gazebo
@@ -72,8 +92,10 @@ def generate_launch_description():
     # Create the LaunchDescription and add the actions
     return LaunchDescription([
         start_gazebo,
+        # gzserver_cmd,
+        # gzclient_cmd,
         robot_state_publisher,
         spawn_robot,
         bridge,
-        start_robot_localization_node
+        #start_robot_localization_node
     ])
