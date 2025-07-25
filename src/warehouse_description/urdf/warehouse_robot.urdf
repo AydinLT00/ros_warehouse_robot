@@ -122,7 +122,7 @@
   <!-- ======================= GAZEBO PLUGIN ======================= -->
   <gazebo>
     <plugin
-      filename="libgz-sim-diff-drive-system"
+      filename="gz-sim-diff-drive-system"
       name="gz::sim::systems::DiffDrive">
       <left_joint>base_to_left_wheel_joint</left_joint>
       <right_joint>base_to_right_wheel_joint</right_joint>
@@ -132,6 +132,11 @@
       <odom_frame>odom</odom_frame>
       <robot_base_frame>base_link</robot_base_frame>
       <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>true</publish_wheel_tf>
+      <odom_publisher_frequency>50</odom_publisher_frequency>
+      <frame_id>odom</frame_id>
+      <child_frame_id>base_link</child_frame_id>
     </plugin>
   </gazebo>
 

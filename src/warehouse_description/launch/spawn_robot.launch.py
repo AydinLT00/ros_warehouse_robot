@@ -15,13 +15,29 @@ def generate_launch_description():
 
     # Get the path to your world file
     world_file_path = os.path.join(pkg_path, 'worlds', 'empty_world.world')
-
+    ekf_config_path = os.path.join(pkg_path, 'config', 'ekf.yaml')
     # 1. Start Gazebo Sim
     # The '-r' argument tells Gazebo to run the simulation right away
     start_gazebo = ExecuteProcess(
         cmd=['gz', 'sim', '-r', world_file_path],
         output='screen'
     )
+
+
+    # This node manually creates a bridge between Gazebo and ROS 2 topics
+    bridge = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        arguments=[
+            # Bridge ROS 2 /cmd_vel to Gazebo /model/warehouse_robot/cmd_vel
+            '/cmd_vel@geometry_msgs/msg/Twist[gz.msgs.Twist',
+            
+            # Bridge Gazebo /odom to ROS 2 /odom
+            '/odom@nav_msgs/msg/Odometry]gz.msgs.Odometry'
+        ],
+        output='screen'
+    )
+
 
     # 2. Start the Robot State Publisher
     # This node still reads the URDF and publishes the /tf topic
@@ -45,9 +61,19 @@ def generate_launch_description():
         output='screen'
     )
 
+    start_robot_localization_node = Node(
+        package='robot_localization',
+        executable='ekf_node',
+        name='ekf_filter_node',
+        output='screen',
+        parameters=[ekf_config_path]
+    )
+
     # Create the LaunchDescription and add the actions
     return LaunchDescription([
         start_gazebo,
         robot_state_publisher,
-        spawn_robot
+        spawn_robot,
+        bridge,
+        start_robot_localization_node
     ])

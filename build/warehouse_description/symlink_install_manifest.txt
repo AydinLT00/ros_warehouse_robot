@@ -2,6 +2,7 @@
 /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/urdf/warehouse_robot.urdf
 /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/worlds/empty_world.sdf
 /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/worlds/empty_world.world
+/home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/config/ekf.yaml
 /home/aidin/warehouse_auto_ws/install/warehouse_description/share/ament_index/resource_index/package_run_dependencies/warehouse_description
 /home/aidin/warehouse_auto_ws/install/warehouse_description/share/ament_index/resource_index/parent_prefix_path/warehouse_description
 /home/aidin/warehouse_auto_ws/install/warehouse_description/share/warehouse_description/environment/ament_prefix_path.sh
