@@ -1,0 +1,25 @@
+ekf_filter_node:
+  ros__parameters:
+    frequency: 30.0
+    two_d_mode: true
+
+    # The odom frame is the parent frame, and the base_link is the child.
+    odom_frame: odom
+    base_link_frame: base_link
+    world_frame: odom # For now, our world IS the odom frame.
+
+    # === SENSOR INPUTS ===
+    # We are using one source of odometry data from the /odom topic.
+    odom0: /odom
+    odom0_config:
+    #  [ X,  Y,  Z,
+    #  roll, pitch, yaw,
+    #  vx, vy, vz,
+    #  vroll, vpitch, vyaw,
+    #  ax, ay, az]
+      [true,  true,  false,
+       false, false, true,
+       true,  true,  false,
+       false, false, true,
+       false, false, false]
+    odom0_differential: false
